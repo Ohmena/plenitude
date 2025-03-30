@@ -80,12 +80,8 @@
 }
 
 .plan-price ul h3 {
+  margin-top: 20px;
   margin-bottom: 0;
-  max-width: max-content;
-  background-color: #fff;
-  color: #051643 !important;
-  padding: 0px 5px;
-  border-radius: 10px;
 }
 
 .plan-price ul li span {
