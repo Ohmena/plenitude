@@ -74,21 +74,21 @@ img {
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
 }
 
-[data-scroll="anima"] {
+.js [data-scroll="anima"] {
   opacity: 0;
   transform: translate3d(-50px, 0, 0);
   transition: .8s ease-out;
 }
 
-[data-scroll="anima"][data-direcao="esquerda"] {
+.js [data-scroll="anima"][data-direcao="esquerda"] {
   transform: translate3d(-50px, 0, 0);
 }
 
-[data-scroll="anima"][data-direcao="direita"] {
+.js [data-scroll="anima"][data-direcao="direita"] {
   transform: translate3d(50px, 0, 0);
 }
 
-[data-scroll="anima"].ativo {
+.js [data-scroll="anima"].ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
