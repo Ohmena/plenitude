@@ -1,0 +1,160 @@
+.intro-bg {
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  border-top-left-radius: 20% 10%;
+  border-top-right-radius: 20% 10%;
+  border-bottom-left-radius: 20% 10%;
+  border-bottom-right-radius: 20% 10%;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.intro-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.intro-items span {
+  cursor: default;
+  background-color: #D8B361;
+  border-radius: 10px;
+  color: #362C02;
+  padding: 10px 20px;
+  max-width: max-content;
+}
+
+.intro-items a {
+  max-width: max-content;
+}
+
+.intro-list ul {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+
+.intro-list ul li {
+  background-color: #FFF1E3;
+  border-radius: 10px;
+  min-height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px;
+}
+
+.intro-list ul li div {
+  padding: 20px;
+}
+
+.intro-list ul li img {
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.intro-list ul li h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.intro-services {
+  display: flex;
+  margin-top: 120px;
+  gap: 20px;
+}
+
+.intro-services > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.intro-services h2 {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.intro-services h2::after {
+  content: "";
+  height: 2px;
+  margin-top: 10px;
+  width: 20%;
+  background-color: #051643;
+}
+
+.intro-services-list {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro-services-list svg {
+  max-width: 80px;
+  fill: #051643;
+  opacity: 0.8;
+}
+
+.intro-services-list h3 {
+  color: #966E13;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.intro-services-list p {
+  max-width: 50ch;
+}
+
+@media (max-width: 1100px) {
+  .intro-bg {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .intro {
+    grid-template-columns: 1fr;
+  }
+  .intro-services {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .intro-services > div {
+    grid-template-columns: 1fr;
+  }
+  .intro-services h2 {
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .intro-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: unset;
+  }
+  .intro-services {
+    gap: 40px;
+  }
+  .intro-services-list svg {
+    max-width: 60px;
+  }
+  .intro-list ul {
+    display: block;
+  }
+
+  .intro-list li:first-child {
+    margin-bottom: 20px;
+  }
+}

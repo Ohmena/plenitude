@@ -1,0 +1,23 @@
+:root {
+  --color-title: #051643;
+  --color-p: #4f4f4f;
+  --color-std: #fff;
+  --color-price: #ffb300;
+}
+
+.color-std {
+  color: var(--color-std) !important;
+}
+
+.color-price {
+  color: var(--color-price);
+}
+
+h1, h2, h3 {
+  color: var(--color-title);
+}
+
+p {
+  color: var(--color-p);
+}
+

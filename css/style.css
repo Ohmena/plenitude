@@ -1,0 +1,18 @@
+/*cabeçalho e rodapé */
+@import "global/header.css";
+@import "global/footer.css";
+
+/*resets, tipografia e cores */
+@import "global/utilidades.css";
+@import "global/tipografia.css";
+@import "global/cores.css";
+
+/* home */
+@import "home/main.css";
+@import "home/intro.css";
+@import "home/plan.css";
+@import "home/places.css";
+@import "home/about.css";
+
+
+
