@@ -85,7 +85,7 @@ img {
 }
 
 .js [data-scroll="anima"][data-direcao="direita"] {
-  transform: translate3d(50px, 0, 0);
+  transform: translate3d(20px, 0, 0);
 }
 
 .js [data-scroll="anima"].ativo {
